@@ -1,6 +1,6 @@
 package com.had.hadhotel.model;
 
-public class Customer {
+public class CustomerInfo {
 	private int customerid;
 	private String customername;
 	private String governmentid;
@@ -8,10 +8,10 @@ public class Customer {
 	private String phone;
 	private String email;
 	private String ccnumber;
-	public Customer() {
+	public CustomerInfo() {
 		super();
 	}
-	public Customer(int customerid, String customername, String governmentid, String customeraddress, String phone,
+	public CustomerInfo(int customerid, String customername, String governmentid, String customeraddress, String phone,
 			String email, String ccnumber) {
 		super();
 		this.customerid = customerid;

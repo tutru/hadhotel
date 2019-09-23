@@ -1,15 +1,15 @@
 package com.had.hadhotel.model;
 
-public class Role {
+public class RoleInfo {
 	private int  role_id;
 	private String role_name;
 	private String role_desc;
 	
-	public Role() {
+	public RoleInfo() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Role(int role_id, String role_name, String role_desc) {
+	public RoleInfo(int role_id, String role_name, String role_desc) {
 		super();
 		this.role_id = role_id;
 		this.role_name = role_name;
