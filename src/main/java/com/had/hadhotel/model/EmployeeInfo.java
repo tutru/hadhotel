@@ -2,7 +2,7 @@ package com.had.hadhotel.model;
 
 import java.util.Date;
 
-public class Employee {
+public class EmployeeInfo {
 	private int employeeid;
 	private String name;
 	private Date birthday;
@@ -14,13 +14,13 @@ public class Employee {
 	private Double salary;
 	
 	
-	public Employee() {
+	public EmployeeInfo() {
 		super();
 		
 	}
 
 
-	public Employee(int employeeid, String name, Date birthday, int governmentid, String phone, String email,
+	public EmployeeInfo(int employeeid, String name, Date birthday, int governmentid, String phone, String email,
 			String address, String image, Double salary) {
 		super();
 		this.employeeid = employeeid;
