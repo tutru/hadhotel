@@ -13,7 +13,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
  
   
   
-   // Cấu hình để sử dụng các file nguồn tĩnh (html, image, ..)
+   // Cấu hình để sử dụng các file nguồn tĩnh (html, image, ..)1
    // Tương đương với <mvc:resources/> trong cấu hình sử dụng XML.
    @Override
    public void addResourceHandlers(ResourceHandlerRegistry registry) {

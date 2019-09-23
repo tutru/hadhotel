@@ -16,5 +16,6 @@ public interface CustomerDAO {
     public CustomerInfo findCustomerInfo(int id);
  
     public void deleteCustomer(int id);
+    //kk
 
 }

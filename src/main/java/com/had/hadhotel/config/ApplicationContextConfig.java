@@ -20,6 +20,9 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+import com.had.hadhotel.dao.CustomerDAO;
+import com.had.hadhotel.dao.impl.CustomerDAOImpl;
+
 @Configuration
 @ComponentScan("com.had.hadhotel.*")
 @EnableTransactionManagement
@@ -90,8 +93,8 @@ public class ApplicationContextConfig {
 	      return transactionManager;
 	  }
 	 
-	  @Bean(name = "applicantDAO")
-	  public ApplicantDAO getApplicantDAO() {
-	      return new ApplicantDAOImpl();
+	  @Bean(name = "customerDAO")
+	  public CustomerDAO getCustomerDAO() {
+	      return new CustomerDAOImpl();
 	  }
 }

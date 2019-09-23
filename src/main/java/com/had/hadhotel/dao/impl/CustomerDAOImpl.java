@@ -25,7 +25,7 @@ public class CustomerDAOImpl implements CustomerDAO {
         crit.add(Restrictions.eq("id", id));
         return (Customer) crit.uniqueResult();
     }
- 
+ //ll
     @Override
     public CustomerInfo findCustomerInfo(int id) {
         Customer customer = this.findCustomer(id);
