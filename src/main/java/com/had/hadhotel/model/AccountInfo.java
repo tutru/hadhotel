@@ -1,19 +1,27 @@
 package com.had.hadhotel.model;
 
-public class Account {
+public class AccountInfo {
+	private int account_id;
 	private int employee_id;
 	private int role_id;
 	private String username;
 	private String password;
-	public Account() {
+	public AccountInfo() {
 		super();
 	}
-	public Account(int employee_id, int role_id, String username, String password) {
+	public AccountInfo(int account_id, int employee_id, int role_id, String username, String password) {
 		super();
+		this.account_id = account_id;
 		this.employee_id = employee_id;
 		this.role_id = role_id;
 		this.username = username;
 		this.password = password;
+	}
+	public int getaccount_id() {
+		return account_id;
+	}
+	public void setaccount_id(int account_id) {
+		this.account_id = account_id;
 	}
 	public int getEmployee_id() {
 		return employee_id;
