@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.had.hadhotel.entity.Customer;
 import com.had.hadhotel.model.CustomerInfo;
-//haodqffdf
+//ksdhfsdhds
 public interface CustomerDAO {
 	
 	public Customer findCustomer(int id);
