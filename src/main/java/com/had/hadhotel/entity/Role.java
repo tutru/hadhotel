@@ -1,5 +1,7 @@
 package com.had.hadhotel.entity;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "ROLE")
-public class Role {
+public class Role implements Serializable {
 	private static final long serialVersionUID = -7893237204476214050L;
 	private int role_id;
 	private String role_name;
