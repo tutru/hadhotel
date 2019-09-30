@@ -19,7 +19,7 @@ public class RoleComtroller {
 	@Autowired
 	private RoleDAO role;
 	
-	@RequestMapping("/rolelist")
+	@RequestMapping("/roleList")
 	public String roleList(Model model) {
 		List<RoleInfo> list = role.listRoleInfos();
 		model.addAttribute("list", list);
